@@ -856,7 +856,7 @@ another "handle" thing.
 ```rust
       const F32_XY_TRIANGLE: u64 = (size_of::<f32>() * 2 * 3) as u64;
       let mut buffer = device
-        .create_buffer(F32_XY_TRIANGLE, BufferUsage::VERTEX)
+        .create_buffer(F32_XY_TRIANGLE, Usage::VERTEX)
         .map_err(|_| "Couldn't create a buffer for the vertices")?;
 ```
 
@@ -918,7 +918,7 @@ pub struct HalState {
   image_views: Vec<(<back::Backend as Backend>::ImageView)>,
   render_pass: ManuallyDrop<<back::Backend as Backend>::RenderPass>,
   render_area: Rect,
-  queue_group: QueueGroup<back::Backend, Graphics>,
+  queue_group: ManuallyDrop<QueueGroup<back::Backend, Graphics>>,
   swapchain: ManuallyDrop<<back::Backend as Backend>::Swapchain>,
   device: ManuallyDrop<back::Device>,
   _adapter: Adapter<back::Backend>,
