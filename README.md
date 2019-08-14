@@ -34,7 +34,7 @@ from.
 
 * The lessons are in the `book/` directory in markdown form. They can be
   rendered to HTML with [mdbook](https://github.com/rust-lang-nursery/mdBook),
-  and the [GitHub Pages site](https://lokathor.github.io/learn-gfx-hal/) for
+  and the [GitHub Pages site](https://rust-tutorials.github.io/learn-gfx-hal/) for
   this repository hosts a rendered version of the master branch.
 * The fully working examples are in the `examples/` directory. Each example
   attempts to be a single file that works on its own, so in some cases the code
