@@ -606,7 +606,7 @@ is the other synchronization primitive that we deal with. In some contexts (eg:
 context they can only be "signaled" or "unsignaled".
 
 The big difference between a fence and a semaphore is that semaphores are for
-GPU to GPU synchronization. When once part of a graphics pipeline (such as
+GPU to GPU synchronization. When one part of a graphics pipeline (such as
 presentation to the swapchain) depends on another part of the pipeline (such as
 command buffer processing), then you describe that dependency to the GPU using a
 semaphore.
