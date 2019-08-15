@@ -64,8 +64,8 @@ impl Quad {
     // X    Y    R    G    B                  U    V
       x  , y+h, 1.0, 0.0, 0.0, /* red     */ 0.0, 1.0, /* bottom left */
       x  , y  , 0.0, 1.0, 0.0, /* green   */ 0.0, 0.0, /* top left */
-      x+w, y  , 0.0, 0.0, 1.0, /* blue    */ 1.0, 0.0, /* bottom right */
-      x+w, y+h, 1.0, 0.0, 1.0, /* magenta */ 1.0, 1.0, /* top right */
+      x+w, y  , 0.0, 0.0, 1.0, /* blue    */ 1.0, 0.0, /* top right */
+      x+w, y+h, 1.0, 0.0, 1.0, /* magenta */ 1.0, 1.0, /* bottom right */
     ]
   }
 }
