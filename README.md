@@ -1,6 +1,6 @@
 [![License:Apache2](https://img.shields.io/badge/License-Apache2-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![AppVeyor](https://ci.appveyor.com/api/projects/status/39wvbxxstqjd2vi8?svg=true)](https://ci.appveyor.com/project/Lokathor/learn-gfx-hal)
-[![travis.ci](https://travis-ci.org/Lokathor/learn-gfx-hal.svg?branch=master)](https://travis-ci.org/Lokathor/learn-gfx-hal)
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/19aheb3n12paj66b/branch/master?svg=true)](https://ci.appveyor.com/project/Lokathor/learn-gfx-hal/branch/master)
+[![travis.ci](https://travis-ci.org/rust-tutorials/learn-gfx-hal.svg?branch=master)](https://travis-ci.org/rust-tutorials/learn-gfx-hal)
 
 [![gfx-hal:0.1](https://img.shields.io/badge/gfx--hal-0.1-blue.svg)](https://docs.rs/gfx-hal)
 
